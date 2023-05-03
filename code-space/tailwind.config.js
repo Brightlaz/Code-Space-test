@@ -20,7 +20,7 @@ module.exports = {
         },
       ],
       "3xl": [
-        "36px",
+        "34px",
         {
           lineHeight: "42px",
           letterSpacing: "-0.03em",
@@ -35,6 +35,9 @@ module.exports = {
           fontWeight: "600",
         },
       ],
+    },
+    animation: {
+      "spin-slow": "spin 10s linear infinite",
     },
   },
   plugins: [],

@@ -59,16 +59,12 @@ button {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   #arrow {
     bottom: 0rem;
   }
   #arrow img {
     height: 4rem;
-  }
-  #asset {
-    top: -4rem;
-    right: -4rem;
   }
   footer {
     margin: 1.5rem !important;
