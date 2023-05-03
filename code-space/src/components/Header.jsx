@@ -13,7 +13,7 @@ const Header = () => {
         <Logo className="animate-[spin_10s_linear_infinite]" alt="shapes" />
       </div>
       <div
-        className="absolute left-0 -translate-x-8 sm:bottom-12 bottom-32 sm:translate-x-0 sm:rotate-0 -rotate-12"
+        className="absolute left-0 -translate-x-8 sm:bottom-12 bottom-20 sm:translate-x-0 sm:rotate-0 -rotate-12"
         id="arrow"
       >
         <img src={arrow} alt="shapes" className="h-24 sm:h-full" />
@@ -25,8 +25,8 @@ const Header = () => {
         <header className="flex flex-col items-center self-center w-full px-6 py-6 mt-2 text-center sm:px-16 sm:py-16 lg:max-w-3xl xl:max-w-5xl">
           <h2 className="mb-4 text-3xl sm:mb-8 sm:text-4xl">
             Connect with{" "}
-            <span className="purple animate-grow-shrink">GenZ</span>-s in tech
-            across <span className="purple">Africa</span>
+            <span className="purple animate-grow-shrink">GenZ-s</span> in tech
+            across <span className="gradient-text">Africa</span>
           </h2>
           <p className="mb-10 text-sm sm:mb-20 sm:text-1xl">
             we are coming soon 🚧🚧
