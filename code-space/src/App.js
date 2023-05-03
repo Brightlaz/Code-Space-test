@@ -47,7 +47,7 @@ function App() {
           borderColor: "#D1D1D2",
         }}
       ></div>
-      <footer className="flex justify-center sm:justify-start flex-col m-10 text-center sm:text-left items-center sm:items-start sm:w-96">
+      <footer className="flex justify-center sm:justify-start flex-col m-10 text-center sm:text-left items-center sm:items-start sm:w-96 md:ms-20 lg:ms-24">
         <p className="mb-4" id="at">
           © 2023 Code Space Africa.
         </p>
