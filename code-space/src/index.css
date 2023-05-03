@@ -19,6 +19,7 @@ body {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   color: #a19a9a;
+  font-size: 16px;
 }
 
 html {
@@ -39,6 +40,12 @@ button {
   background-color: #5d5cd6;
 }
 
+#at {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 38px;
+}
+
 .purple {
   color: #5d5cd6;
 }
@@ -49,5 +56,21 @@ button {
     font-size: 16px !important;
     line-height: 19px !important;
     letter-spacing: -0.02em !important;
+  }
+}
+
+@media (max-width: 320px) {
+  #arrow {
+    bottom: 0rem;
+  }
+  #arrow img {
+    height: 4rem;
+  }
+  #asset {
+    top: -4rem;
+    right: -4rem;
+  }
+  footer {
+    margin: 1.5rem !important;
   }
 }
