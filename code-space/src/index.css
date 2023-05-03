@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("./fonts/gelion/style.css");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -13,8 +16,38 @@
 
 body {
   @apply bg-white h-full overflow-x-hidden;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #a19a9a;
 }
 
 html {
   @apply h-full;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  @apply text-black;
+  font-family: "Gelion Bold", sans-serif;
+}
+
+button {
+  @apply relative px-8 py-4 sm:px-16 sm:py-5 mt-10 text-white transition rounded-full sm:rounded-3xl hover:bg-violet-600 text-2xl;
+  font-family: "Gelion Thin", sans-serif;
+  background-color: #5d5cd6;
+}
+
+.purple {
+  color: #5d5cd6;
+}
+
+/* Styles for small screens */
+@media (max-width: 640px) {
+  button {
+    font-size: 16px !important;
+    line-height: 19px !important;
+    letter-spacing: -0.02em !important;
+  }
 }
